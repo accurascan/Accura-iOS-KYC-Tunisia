@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		QqdW1W8qh3pTtoO6YZUsqX+gUPM=
+		MPLFDghY8RjSQd6PBTX5yaF8+aQ=
 		</data>
 		<key>ChineseOCRResources.bundle/Info.plist</key>
 		<data>
-		cSaYEzhJl9FPD3KGQRN38BXHjq4=
+		6YwO6cuswmxpt6P0WIFc+U1UshU=
 		</data>
 		<key>ChineseOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iSR9U8dkiQoIvWsyQd+jQzLv/dU=
+		B6barmUP9ak6sVVyuZPtX8pr/Hk=
 		</data>
 		<key>JapaneseOCRResources.bundle/Info.plist</key>
 		<data>
-		KTAK6m/l8oK1Hiv7TLgS9qpydjQ=
+		dnDx2q43v8scUXNCXlUW9630y6Y=
 		</data>
 		<key>JapaneseOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>KoreanOCRResources.bundle/Info.plist</key>
 		<data>
-		LMrGt1DkA2gvdC6vEFIZ7rgSBJc=
+		kimKsSby42mP7p0XRv/3sNcUN2c=
 		</data>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		Q+5pF0gDZ712NVr+Y55JQO/BX5U=
+		1a6/zeE159XRjxPcFfe9EtNwbOI=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -292,14 +292,6 @@
 		<data>
 		y/e5l/CcgWM//QQSePyQnMd+ahA=
 		</data>
-		<key>model1.dat</key>
-		<data>
-		3hLGO7CdwyE9Dhv/vJmQ5VS5gLM=
-		</data>
-		<key>model2.dat</key>
-		<data>
-		KI/UN33nya2KZ/QVrhqKPo+vgZ0=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -307,14 +299,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pfiXPDRdwH6FuzYlEtyBnxLZBA0GldqFBrVxhPFQ8Rk=
+			IIWDYyWbo0kM2EYPS18ueLFBd6JKhssjJzeIWooHny0=
 			</data>
 		</dict>
 		<key>ChineseOCRResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zds5ZD8xqtZoEicI5ub3vi5w+GjddORGxq2eMH6b6uo=
+			Srw+2UcBoOlTXmmvWRiS2mj4qEYd6fVRTyV2ACUW+QU=
 			</data>
 		</dict>
 		<key>ChineseOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -482,7 +474,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BU7VpAcuCSW21EANc5bvlYci9HD6WIA6SCloFPwsoME=
+			t+8kO0AaZPIHEx8YMtPuqgnjzLBYcw8dupVH2OdmalY=
 			</data>
 		</dict>
 		<key>JapaneseOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -594,7 +586,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8c4qNCiMNKKd+XYlbTa76qeToNe2doEvwJP2d5IjQpQ=
+			BDovT39C72nt7Z6CdyMUhxMcyTnIjWH/m1IEot8xJq4=
 			</data>
 		</dict>
 		<key>KoreanOCRResources.bundle/region_proposal_text_detector_tflite_vertical.bincfg</key>
@@ -706,7 +698,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OY2s6bp8bt3ooyuhyeBf5Qhiz06PCy3J3Q7BFcyQNYw=
+			Vekj/p3d3hybmg9BCy3397SJCCj1eGAR4K5qhZUZ7u4=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -798,20 +790,6 @@
 			<key>hash2</key>
 			<data>
 			LmEaKouzvpVcdLOgQooNbgZxJxuqHBk36CG9UNzVEPM=
-			</data>
-		</dict>
-		<key>model1.dat</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6UKuwdV+jJr5Mf6LCOjdq8kqkrLvj6Pr9msHlAfCZ0Y=
-			</data>
-		</dict>
-		<key>model2.dat</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W2r1A1b+3he9yJ+E9Rh+nzJ1SSkg0XePSttx+1e4MOQ=
 			</data>
 		</dict>
 	</dict>

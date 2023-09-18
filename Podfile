@@ -7,7 +7,7 @@ target 'AccuraSDK' do
   
 pod 'SVProgressHUD'
 pod 'GoogleMLKit','3.2.0'
-pod 'AccuraLiveness_FM', '4.2.2'
+pod 'AccuraLiveness_FM', '4.2.5'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

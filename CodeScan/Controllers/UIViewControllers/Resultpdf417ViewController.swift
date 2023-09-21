@@ -4,7 +4,7 @@ import SVProgressHUD
 import AccuraOCR
 import AccuraLiveness_fm
 
-class Resultpdf417ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate ,UIImagePickerControllerDelegate, UINavigationControllerDelegate, CustomAFNetWorkingDelegate,LivenessData,FacematchData {
+class Resultpdf417ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate ,UIImagePickerControllerDelegate, UINavigationControllerDelegate,LivenessData,FacematchData {
     
    
     //MARK:- Outlet

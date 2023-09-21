@@ -69,7 +69,6 @@
 		A382E69A230AA94800C56EAE /* FirstViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A382E697230AA94700C56EAE /* FirstViewVC.swift */; };
 		A384904724A61EC700ECB42D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A384904624A61EC700ECB42D /* README.md */; };
 		A3862D3625FC787600345FE8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AF507211999F100700EDF /* CoreMedia.framework */; };
-		A3B51CD925FB8D50007534B1 /* CustomAFNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B51CD725FB8D50007534B1 /* CustomAFNetWorking.m */; };
 		A3C8065725F8F4BA004D8310 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8065625F8F4BA004D8310 /* FaceView.swift */; };
 		A3F00C5925E4D820009A7E23 /* BarcodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F00C5725E4D820009A7E23 /* BarcodeTableViewCell.swift */; };
 		A3F00C5A25E4D820009A7E23 /* BarcodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F00C5825E4D820009A7E23 /* BarcodeTableViewCell.xib */; };
@@ -166,8 +165,6 @@
 		A37CC82E25E10F5B00FBEC23 /* SelectCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCodeVC.swift; sourceTree = "<group>"; };
 		A382E697230AA94700C56EAE /* FirstViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewVC.swift; sourceTree = "<group>"; };
 		A384904624A61EC700ECB42D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		A3B51CD725FB8D50007534B1 /* CustomAFNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAFNetWorking.m; sourceTree = "<group>"; };
-		A3B51CD825FB8D50007534B1 /* CustomAFNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAFNetWorking.h; sourceTree = "<group>"; };
 		A3C8065625F8F4BA004D8310 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = AccuraScan/External/FaceView.swift; sourceTree = "<group>"; };
 		A3F00C5725E4D820009A7E23 /* BarcodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTableViewCell.swift; sourceTree = "<group>"; };
 		A3F00C5825E4D820009A7E23 /* BarcodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarcodeTableViewCell.xib; sourceTree = "<group>"; };
@@ -261,7 +258,6 @@
 			isa = PBXGroup;
 			children = (
 				6657CED8290F789A00664C42 /* AccuraOCR.framework */,
-				A3B51CD625FB8D50007534B1 /* CustomAfnetwork */,
 				A3C8065625F8F4BA004D8310 /* FaceView.swift */,
 				5C67D96A2111E02100154EB7 /* AccuraScan */,
 				FAD8829323DDE04E007247EC /* Storyboards */,
@@ -398,16 +394,6 @@
 				5C67D9802111E40A00154EB7 /* default_user.png */,
 			);
 			path = External;
-			sourceTree = "<group>";
-		};
-		A3B51CD625FB8D50007534B1 /* CustomAfnetwork */ = {
-			isa = PBXGroup;
-			children = (
-				A3B51CD725FB8D50007534B1 /* CustomAFNetWorking.m */,
-				A3B51CD825FB8D50007534B1 /* CustomAFNetWorking.h */,
-			);
-			name = CustomAfnetwork;
-			path = AccuraScan/CustomAfnetwork;
 			sourceTree = "<group>";
 		};
 		FAD8829323DDE04E007247EC /* Storyboards */ = {
@@ -602,7 +588,6 @@
 				A324C42B2476ECE50002AE35 /* ResultTableCell.swift in Sources */,
 				A3C8065725F8F4BA004D8310 /* FaceView.swift in Sources */,
 				A324C4372476ED2E0002AE35 /* DocumantVarifyCell.swift in Sources */,
-				A3B51CD925FB8D50007534B1 /* CustomAFNetWorking.m in Sources */,
 				A37CC82825E10F1500FBEC23 /* BarcodeTypeHFV.swift in Sources */,
 				A324C4332476ED020002AE35 /* DocumentTableCell.swift in Sources */,
 				A3F00C5925E4D820009A7E23 /* BarcodeTableViewCell.swift in Sources */,

@@ -1,6 +1,6 @@
 
 import UIKit
-import SVProgressHUD
+import ProgressHUD
 import Photos
 import AccuraOCR
 import PhotosUI
@@ -232,7 +232,7 @@ class FaceMatchViewController: UIViewController,UIImagePickerControllerDelegate,
         
         
         dismiss(animated: true, completion: nil)
-        SVProgressHUD.show(withStatus: "Loading...")
+        ProgressHUD.show("Loading...")
         DispatchQueue.global(qos: .background).async {
             guard var originalImage = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage else { return }
             
@@ -244,7 +244,7 @@ class FaceMatchViewController: UIViewController,UIImagePickerControllerDelegate,
             let compressData = UIImage(data: originalImage.jpegData(compressionQuality: 1.0)!)
             DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
                 self.setFaceRegion(compressData!)//Set FaceMatch score
-                SVProgressHUD.dismiss()
+                ProgressHUD.dismiss()
             })
         }
         
@@ -265,7 +265,7 @@ class FaceMatchViewController: UIViewController,UIImagePickerControllerDelegate,
                         let compressData = UIImage(data: originalImage.jpegData(compressionQuality: 1.0)!)
                         
                         self.setFaceRegion(compressData!)//Set FaceMatch score
-                        SVProgressHUD.dismiss()
+                        ProgressHUD.dismiss()
                         print("Selected image: \(image)")
                     }
                 }
@@ -275,7 +275,7 @@ class FaceMatchViewController: UIViewController,UIImagePickerControllerDelegate,
     
     
     func facematchData(_ FaceImage: UIImage!) {
-        SVProgressHUD.show(withStatus: "Loading...")
+        ProgressHUD.show("Loading...")
         DispatchQueue.global(qos: .background).async {
             var originalImage = FaceImage
             
@@ -287,7 +287,7 @@ class FaceMatchViewController: UIViewController,UIImagePickerControllerDelegate,
             let compressData = UIImage(data: FaceImage.jpegData(compressionQuality: 1.0)!)
             DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
                 self.setFaceRegion(compressData!)//Set FaceMatch score
-                SVProgressHUD.dismiss()
+                ProgressHUD.dismiss()
             })
         }
     }

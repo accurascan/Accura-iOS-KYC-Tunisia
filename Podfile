@@ -5,9 +5,9 @@ target 'AccuraSDK' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   
-pod 'SVProgressHUD'
-pod 'GoogleMLKit','3.2.0'
-pod 'AccuraLiveness_FM', '4.2.5'
+pod 'ProgressHUD'
+pod 'GoogleMLKit'
+pod 'AccuraLiveness_FM', '4.2.7'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

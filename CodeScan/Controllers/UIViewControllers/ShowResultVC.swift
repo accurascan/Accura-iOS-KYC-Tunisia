@@ -1,6 +1,6 @@
 
 import UIKit
-import SVProgressHUD
+import ProgressHUD
 import AccuraOCR
 import AccuraLiveness_fm
 
@@ -1684,7 +1684,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         picker.dismiss(animated: true, completion: nil)
         isFLpershow = true
-        SVProgressHUD.show(withStatus: "Loading...")
+        ProgressHUD.show("Loading...")
         DispatchQueue.global(qos: .background).async {
             guard var chosenImage:UIImage = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage else{return}
             
@@ -1769,7 +1769,7 @@ class ShowResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                     }
                 }
                 self.tblResult.reloadData()
-                SVProgressHUD.dismiss()
+                ProgressHUD.dismiss()
             })
         }
     }

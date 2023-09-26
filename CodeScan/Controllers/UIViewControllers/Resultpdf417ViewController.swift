@@ -1,6 +1,6 @@
 
 import UIKit
-import SVProgressHUD
+import ProgressHUD
 import AccuraOCR
 import AccuraLiveness_fm
 

@@ -101,11 +101,11 @@ typedef NS_ENUM(NSUInteger, BarcodeType)
 -(void)changeBarcodeType:(BarcodeType)barcodetype;
 -(void)CloseOCR;
 -(NSString *)getMRZSDKVersion;
--(void)APIKEY:(NSString *)apiKey;
--(void)isApiCallingEnable:(BOOL)isApiCallingEnable1;
--(void)APIURL:(NSString *)apiurl;
--(void)APITimer:(float)apitimer;
--(void)setProgressDialogue:(NSString *)loading;
+//-(void)APIKEY:(NSString *)apiKey;
+//-(void)isApiCallingEnable:(BOOL)isApiCallingEnable1;
+//-(void)APIURL:(NSString *)apiurl;
+//-(void)APITimer:(float)apitimer;
+//-(void)setProgressDialogue:(NSString *)loading;
 
 @end
 #endif

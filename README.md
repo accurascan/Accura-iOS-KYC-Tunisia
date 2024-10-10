@@ -27,9 +27,6 @@
 `key.license`
 
 
-Generate your Accura license from https://accurascan.com/developer/dashboard <br/>
-
-
 #### Step 2: To initialize sdk on app start:
 ```
 import AccuraOCR
@@ -356,8 +353,6 @@ func reco_titleMessage(_ messageCode: Int32) {
 
 ## 2. Setup Accura liveness
 
-
-Contact to  [connect@accurascan.com](mailto:connect@accurascan.com)  to get Url for liveness </br>
 Step 1: Open camera for liveness Detectcion.
 
 
@@ -431,9 +426,6 @@ Step 1: Add licence file in to your project.<br />
 
 
 - `accuraface.license` for Accura Face Match <br />
-
-
-Generate your Accura licence from <https://accurascan.com/developer/sdk-license>
 
 
 Step 2: Add `FaceView.swift` file in your project.

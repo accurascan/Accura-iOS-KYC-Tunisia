@@ -119,10 +119,6 @@ class CountryNameViewController: UIViewController, UITableViewDelegate, UITableV
                 self.accuraCameraWrapper?.setGlarePercentage(6, intMax: 99)
                 self.accuraCameraWrapper?.setBlurPercentage(60)
                 self.accuraCameraWrapper?.setCameraFacing(.CAMERA_FACING_BACK)
-                 self.accuraCameraWrapper?.setProgressDialogue("API loading...")
-                 self.accuraCameraWrapper?.apiTimer(100.0)
-                 self.accuraCameraWrapper?.apiurl("Your URL")
-                 self.accuraCameraWrapper?.isApiCallingEnable(true)
              }
             }
             

@@ -126,36 +126,6 @@ accuraCameraWrapper?.setMotionThreshold(25/*setMotionThreshold*/)
 ```
 
 
-* Set Progress Dialogue Message
-```
-accuraCameraWrapper?.setProgressDialogue("API Loading...")
-```
-
-
-* Set Api Timer
-```
-accuraCameraWrapper?.apiTimer(30.0)
-
-
-``` 
-
-
-* Set Api URL
-```
-accuraCameraWrapper?.apiurl("set your url")
-
-
-```
-
-
-* Enable Api Calling
-```
-accuraCameraWrapper?.isApiCallingEnable(true)
-
-
-```
-
-
 * Sets camera Facing front or back camera
 ```
 accuraCameraWrapper?.setCameraFacing(.CAMERA_FACING_BACK)
@@ -433,7 +403,7 @@ liveness.setGlarePercentage(6, 99) //set glaremin -1 and glaremax -1 to remove t
 
 // if you want to enable SSL certificate pinning for Liveness API set it true. 
 // if 'evaluateServerTrustWIthSSLPinning()' is true must have to add SSL Certificate of Your liveness API Server in Your Proeject's Root directory
-liveness.evaluateServerTrustWIthSSLPinning(true)
+liveness.evaluateServerTrustWIthSSLPinning(false)
 ```
 
 
@@ -647,13 +617,4 @@ func setFaceRegion(_ image: UIImage) {
 	let twoDecimalPlaces = String(format: "%.2f", fmSore*100) //Match score Convert Float Value
 	print(Match Score :- "\(twoDecimalPlaces) %")
 }
-```
-
-
-* On API Error
-
-
-```
-    func onAPIError(_ error: String!) {
-    }
 ```

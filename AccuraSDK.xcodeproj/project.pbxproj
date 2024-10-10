@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0021908E22ACE78400E08B01 /* ListViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021908D22ACE78400E08B01 /* ListViewVC.swift */; };
-		18AD33D82A7B7CE200BC4E9A /* key.license in Resources */ = {isa = PBXBuildFile; fileRef = 18AD33D72A7B7CE200BC4E9A /* key.license */; };
+		18F0EC202CB7BECF005DEC70 /* accuraface.license in Resources */ = {isa = PBXBuildFile; fileRef = 18F0EC1F2CB7BECF005DEC70 /* accuraface.license */; };
+		18F0EC222CB7BED3005DEC70 /* key.license in Resources */ = {isa = PBXBuildFile; fileRef = 18F0EC212CB7BED3005DEC70 /* key.license */; };
 		5C67D9812111E40B00154EB7 /* default_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C67D9802111E40A00154EB7 /* default_user.png */; };
 		5C7D02532143CDFE00F05ADE /* DrivingPDFstringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7D02512143CDFE00F05ADE /* DrivingPDFstringTableViewCell.swift */; };
 		5C7D02542143CDFE00F05ADE /* DrivingPDFstringTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7D02522143CDFE00F05ADE /* DrivingPDFstringTableViewCell.xib */; };
@@ -34,7 +35,6 @@
 		6104CC8420BB4E6E00AC428E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6104CC8320BB4E6E00AC428E /* Assets.xcassets */; };
 		617EB0E120BB705D00BCBFD9 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617EB0E020BB705D00BCBFD9 /* NSObjectExtensions.swift */; };
 		617EB0E320BB78B300BCBFD9 /* MainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617EB0E220BB78B300BCBFD9 /* MainV.swift */; };
-		663BDE3A29DA92A000B1DDEB /* accuraface.license in Resources */ = {isa = PBXBuildFile; fileRef = 663BDE3929DA92A000B1DDEB /* accuraface.license */; };
 		6657CEDA290F78AC00664C42 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AF50B21199A0A00700EDF /* Accelerate.framework */; };
 		6657CEDC290F79DE00664C42 /* AccuraOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6657CED8290F789A00664C42 /* AccuraOCR.framework */; };
 		6657CEDD290F79DE00664C42 /* AccuraOCR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6657CED8290F789A00664C42 /* AccuraOCR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -95,7 +95,8 @@
 
 /* Begin PBXFileReference section */
 		0021908D22ACE78400E08B01 /* ListViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
-		18AD33D72A7B7CE200BC4E9A /* key.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.license; sourceTree = "<group>"; };
+		18F0EC1F2CB7BECF005DEC70 /* accuraface.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = accuraface.license; sourceTree = "<group>"; };
+		18F0EC212CB7BED3005DEC70 /* key.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.license; sourceTree = "<group>"; };
 		2E29775456FBC1B0EA73315A /* Pods-AccuraSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraSDK.debug.xcconfig"; path = "Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		4017C20070C8B50B946F6AF2 /* Pods_AccuraSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccuraSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EEB8E7E4174954C301AA7A /* Pods-AccuraSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccuraSDK.release.xcconfig"; path = "Target Support Files/Pods-AccuraSDK/Pods-AccuraSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +131,6 @@
 		6104CC9220BB515E00AC428E /* CodeScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanVC.swift; sourceTree = "<group>"; };
 		617EB0E020BB705D00BCBFD9 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		617EB0E220BB78B300BCBFD9 /* MainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainV.swift; sourceTree = "<group>"; };
-		663BDE3929DA92A000B1DDEB /* accuraface.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = accuraface.license; sourceTree = "<group>"; };
 		6657CED8290F789A00664C42 /* AccuraOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccuraOCR.framework; sourceTree = "<group>"; };
 		66D0317E29DBDF0E0036CFE1 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8432A2862135132A006BA16A /* DrivingPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingPDF.swift; sourceTree = "<group>"; };
@@ -382,8 +382,8 @@
 		A38570EB2318018500FF7209 /* License */ = {
 			isa = PBXGroup;
 			children = (
-				18AD33D72A7B7CE200BC4E9A /* key.license */,
-				663BDE3929DA92A000B1DDEB /* accuraface.license */,
+				18F0EC1F2CB7BECF005DEC70 /* accuraface.license */,
+				18F0EC212CB7BED3005DEC70 /* key.license */,
 			);
 			path = License;
 			sourceTree = "<group>";
@@ -469,11 +469,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F0EC202CB7BECF005DEC70 /* accuraface.license in Resources */,
 				A324C42A2476ECE50002AE35 /* ResultTableCell.xib in Resources */,
 				5C94E024211ACA8200428686 /* Aller_Std.ttf in Resources */,
 				5C67D9812111E40B00154EB7 /* default_user.png in Resources */,
 				6104CC8420BB4E6E00AC428E /* Assets.xcassets in Resources */,
-				18AD33D82A7B7CE200BC4E9A /* key.license in Resources */,
+				18F0EC222CB7BED3005DEC70 /* key.license in Resources */,
 				5C94E027211ACA8200428686 /* Aller_Std_Lt.ttf in Resources */,
 				A324C4322476ED020002AE35 /* UserImgTableCell.xib in Resources */,
 				A324C4272476ECD10002AE35 /* FaceMatchResultTableViewCell.xib in Resources */,
@@ -490,7 +491,6 @@
 				8432A28D213517A8006BA16A /* DrivingPDF.xib in Resources */,
 				A33E204B23E2AA78004FED85 /* ListTableCell.xib in Resources */,
 				5C94E028211ACA8200428686 /* Aller_Std_LtIt.ttf in Resources */,
-				663BDE3A29DA92A000B1DDEB /* accuraface.license in Resources */,
 				A324C4312476ED020002AE35 /* DocumentTableCell.xib in Resources */,
 				5C94E025211ACA8200428686 /* Aller_Std_BdIt.ttf in Resources */,
 				A37CC82A25E10F1500FBEC23 /* BarcodeTypeHFV.xib in Resources */,

@@ -34,31 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B6barmUP9ak6sVVyuZPtX8pr/Hk=
+		IGiQZOk1RzL07feBveE/X7QO6sk=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		rVJogKmryiLyq3beDpKQDF4ypEg=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		cc+wh/NM4M8wq7lH164wxe0vCk4=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		up6O+RNrnp8uZiBM9koyTWYAKj0=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		3v+SY/NRkJFEYBI6uzSstWRwVOM=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		wAcvRDpr4WwSmhX9K6fHkl08qbg=
-		</data>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		f8gOcf//03dgwQ0ZSqpz2JRmE/c=
+		9/Jcn3AyjF4d+MOcrILzkQvctXk=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -94,7 +74,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		lm4B+dtckRQRK9HtfIF5ZfH2h7A=
+		1xhzcBvS6rB+5HKX3Oo87u6JGEE=
 		</data>
 		<key>ZoomHybrid.pub</key>
 		<data>
@@ -111,6 +91,10 @@
 		<key>mMQDF_f_Passport_bottom_Gray.dic</key>
 		<data>
 		y/e5l/CcgWM//QQSePyQnMd+ahA=
+		</data>
+		<key>tessdata/araMAIN6.traineddata</key>
+		<data>
+		EH2vq22osLjdGT/1woEX27zNPYw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -168,42 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ZxnpnOiAN9p6yMKQT0qgxI4uRib1+iBPklgr5HERI4=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F51FcKh4+pAZt9d0kzC2WAGSgUZFwnTD7OskDUJ1kaQ=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q87cciLhg9DeE4i2mmTgCE/2E/rIrwd5HWzd7da0itA=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D8tfVCbwJstE79gNGmr/vFlXejymunqCB3FlNHP0RMA=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			invF7KpCHCac7fmWM4LSKwZVfsuUXzSgywbk4dGvZ3c=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ypVtZuwBLqcC8POECsi6CalLryL/9JMmvQBwFljkK/M=
+			qulG4PZnJs3eJBYFsmyn86B8EeWfuFP5EUYQ2DxsS7c=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -266,7 +215,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p12LVWErLi7caihL3csJqDbC/R0SjHVguINvKgxbhBU=
+			L6j1F2vkvh/rSy2G3yVcaEvTZtD41vybn9m7EPfYyAY=
 			</data>
 		</dict>
 		<key>ZoomHybrid.pub</key>
@@ -295,6 +244,13 @@
 			<key>hash2</key>
 			<data>
 			LmEaKouzvpVcdLOgQooNbgZxJxuqHBk36CG9UNzVEPM=
+			</data>
+		</dict>
+		<key>tessdata/araMAIN6.traineddata</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qARU9y3zXG9SVQVR3Wm4Uh6mpi2DQ5bRx9zkw1STkC4=
 			</data>
 		</dict>
 	</dict>

@@ -251,7 +251,7 @@ class ViewController: UIViewController {
         isBackDataComplate = false
          
         accuraCameraWrapper = AccuraCameraWrapper.init(delegate: self, andImageView: _imageView, andLabelMsg: lblOCRMsg, andurl: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String, cardId: Int32(cardid!), countryID: Int32(countryid!), isScanOCR: isCheckScanOCR, andcardName: docName, andcardType: Int32(cardType!), andMRZDocType: Int32(MRZDocType!))
-        accuraCameraWrapper?.setMinFrameForValidate(5)
+        accuraCameraWrapper?.setMinFrameForValidate(3)
     }
     
     @objc private func ChangedOrientation() {
